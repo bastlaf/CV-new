@@ -521,7 +521,6 @@
     background-attachment: fixed;
     background-size: cover;
     width: 100vw;
-    height: 650px;
     display: flex;
     justify-content: flex-end;
 }
@@ -533,6 +532,64 @@
     height: 100%;
     padding-bottom: 3rem;
 }
+.parcours_flexTitreForm1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.parcours_titreForm1 {
+    font-family: 'Signika', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: ivory;
+    border-bottom: 2px dotted rgb(243, 165, 21);
+    text-shadow: 1px 0px 12px rgba(112, 112, 112, 0.8);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    margin-right: 4rem;
+}
+.contactMe {
+    background: rgba(0, 0, 0, 0.479);
+    border: 1px solid white;
+    width: 740px;
+    margin-top: 3rem;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.CM1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    padding: 10px 10px;
+}
+.CMlogo1 {
+    height: 50px;
+    filter: saturate(0) invert(100%);
+    margin-bottom: 0.5rem;
+    transition: .2s ease-in-out;
+
+}
+.CMlogo1:hover {
+    transition: .2s ease-in-out;
+    transform: rotate(15deg) scale(1.2);
+}
+.textLogo {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
 .lbl_name {
     width: 100px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -569,6 +626,27 @@
     width: 100%;
     margin-top: 1rem;
 }
+.form_submit {
+    display: flex;
+    justify-content: column;
+    width: fit-content;
+    height: 30px;
+    margin-top: 1rem;
+    margin-left: 6.2rem;
+}
+.submit {
+
+        background-color: rgb(243, 165, 21);
+        color:#FFFFFF ;
+        -webkit-border-radius: 30px;
+           -moz-border-radius: 30px;
+                border-radius: 30px;
+        display:inline-block;
+        width: 15em;
+        height: 2.5em;
+  
+}
+
 #name {
     width: 80%;
     border-radius: 10px;

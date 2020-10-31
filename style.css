@@ -4,8 +4,11 @@
     margin : 0 0 0 0;
     padding : 0 0 0 0;
     max-width: 100%;
+    box-sizing: border-box;
 }
 
+
+/* Première section */
 .section_a {
     background-image:url(Sans_titre_2.jpg);
     background-position: right;
@@ -68,17 +71,14 @@
 }
 
 
-
-
-
-
+/* deuxième section */
 .section_b {
     background-image:url(Sans_titre_1-2.jpg);
     background-position: left;
     background-attachment: fixed;
     background-size: cover;
     width: 100vw;
-    height: 650px;
+    height: 750px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -97,61 +97,418 @@
     font-weight: 500;
     color: ivory;
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 4rem;
     padding-bottom: 1rem;
-    border-bottom: 2px solid rgb(243, 165, 21);
+    border-bottom: 2px dotted rgb(243, 165, 21);
     text-shadow: 1px 0px 12px rgba(112, 112, 112, 0.8);
 }
 .text_aboutMeB {
-
-    margin: 50px 100px 50px 100px;
+    width: 75%;
+    margin-top: 50px;
     text-align: justify;
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+.icon_B {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin-top: 90px;
+    height: 230px;
+}
+.icon_B_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15rem;
+    height: 100%;
+}
+.logo1 {
+    width: 5rem;
+    filter: saturate(0) invert(100%);
+    padding-bottom: 15px;
+}
+.icon_B_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15rem;
+    height: 100%;
+}
+.logo2 {
+    width: 5rem;
+    filter: saturate(0) invert(100%);
+    padding-bottom: 15px;
+}
+.ligne_icon_middle {
+    width: 2px;
+    height: 100%;
+    background-color: rgb(243, 165, 21);
+    box-shadow: 0px 0px 38px 10px rgba(0,0,0,0.35);
+}
+.icon_Title {
+    font-family: 'Signika', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-bottom: 2px dotted rgb(243, 165, 21);
+    color: ivory;
+    text-align: center;
+    text-shadow: 1px 0px 12px rgba(0, 0, 0, 0.8);
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+.flex_icons {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+}
+.text_Icons {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 15px;
+    line-height: 40px;
+}
+.fa-camera-retro {
+    font-size: 30px;
+}
+.fa-pagelines {
+    font-size: 30px;
+}
+.fa-gamepad {
+    font-size: 30px;
+}
+.flex_language1 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.flex_language2 {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
 }
 
 
-
-
-
-
-.section_c {
+/* troisième section */
+.parcours {
     background-image:url(Sans_titre_4.jpg);
     background-position: right;
     background-attachment: fixed;
     background-size: cover;
     width: 100vw;
-    height: 650px;
+    height: 1150px;
     display: flex;
     flex-direction: column;
-
 }
-.box_moitiéC {
+.parcours_Box_Principale {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 70%;
+    width: 950px;
     height: 100%;
-
 }
-.sous_titreC {
+
+
+
+/* 3eme section - 1ere partie */
+.parcours_flexTitre1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.parcours_titre1 {
     font-family: 'Signika', sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
     color: ivory;
-    text-align: center;
-    margin-top: 6rem;
-    padding-bottom: 1rem;
-    border-bottom: 2px solid rgb(243, 165, 21);
+    border-bottom: 2px dotted rgb(243, 165, 21);
     text-shadow: 1px 0px 12px rgba(112, 112, 112, 0.8);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
 }
-.text_aboutMeC {
-
-    margin: 50px 100px 50px 100px;
-    text-align: justify;
+.parcours_flexLigne1 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.parcours_Box1-1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    background: linear-gradient(180deg, rgb(51, 48, 48) 0%, rgba(93,93,93,0) 100%);
+    padding: 1rem 1rem 0rem 1rem;
+    transition: top 200ms;
+}
+.parcours_Box1-1:hover {
+    position: relative;
+    top: -10px;
+}
+.parcours_Box1-2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    background: linear-gradient(180deg, rgb(51, 48, 48) 0%, rgba(93,93,93,0) 100%);
+    padding: 1rem 1rem 0rem 1rem;
+    transition: top 200ms;
+}
+.parcours_Box1-2:hover {
+    position: relative;
+    top: -10px;
+}
+.parcours_Box1-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    background: linear-gradient(180deg, rgb(51, 48, 48) 0%, rgba(93,93,93,0) 100%);
+    padding: 1rem 1rem 0rem 1rem;
+    position: relative;
+    top: 0px;
+    transition: top 200ms;
+}
+.parcours_Box1-3:hover {
+    position: relative;
+    top: -10px;
+}
+.parcours_dates1 {
+    font-family: 'Signika', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 500;
+    color: ivory;
+    border-bottom: 4px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 25px;
+    padding-bottom: 5px;
+    width: 7rem;
+}
+.parcours_travail1 {
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
 }
+.parcours_lieu1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 1px 0px 12px rgba(0, 0, 0, 0.8);
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px dotted white;
+}
+
+
+
+/* 3eme section - 2eme partie */
+.parcours_flexTitre2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.parcours_titre2 {
+    font-family: 'Signika', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: ivory;
+    border-bottom: 2px dotted rgb(243, 165, 21);
+    text-shadow: 1px 0px 12px rgba(112, 112, 112, 0.8);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+.parcours_flexLigne2 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.parcours_Box2-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    background: linear-gradient(180deg, rgb(51, 48, 48) 0%, rgba(93,93,93,0) 100%);
+    padding: 1rem 1rem 0rem 1rem;
+    position: relative;
+    top: 0px;
+    transition: top 200ms;
+}
+.parcours_Box2-1:hover {
+    position: relative;
+    top: -10px;
+}
+.parcours_Box2-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    background: linear-gradient(180deg, rgb(51, 48, 48) 0%, rgba(93,93,93,0) 100%);
+    padding: 1rem 1rem 0rem 1rem;
+    position: relative;
+    top: 0px;
+    transition: top 200ms;
+}
+.parcours_Box2-2:hover {
+    position: relative;
+    top: -10px;
+}
+.parcours_Box2-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    background: linear-gradient(180deg, rgb(51, 48, 48) 0%, rgba(93,93,93,0) 100%);
+    padding: 1rem 1rem 0rem 1rem;
+    position: relative;
+    top: 0px;
+    transition: top 200ms;
+}
+.parcours_Box2-3:hover {
+    position: relative;
+    top: -10px;
+}
+.parcours_dates2 {
+    font-family: 'Signika', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 500;
+    color: ivory;
+    border-bottom: 4px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 25px;
+    padding-bottom: 5px;
+    width: 7rem;
+}
+.parcours_travail2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.parcours_lieu2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 1px 0px 12px rgba(0, 0, 0, 0.8);
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px dotted white;
+}
+
+
+
+
+
+/* 3eme section - 3eme partie */
+.parcours_flexTitre3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.parcours_titre3 {
+    font-family: 'Signika', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: ivory;
+    border-bottom: 2px dotted rgb(243, 165, 21);
+    text-shadow: 1px 0px 12px rgba(112, 112, 112, 0.8);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+.parcours_flexLigne3 {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.parcours_Box3-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    background: linear-gradient(180deg, rgb(51, 48, 48) 0%, rgba(93,93,93,0) 100%);
+    padding: 1rem 1rem 0rem 1rem;
+    margin-right: 0.8rem;
+    position: relative;
+    top: 0px;
+    transition: top 200ms;
+}
+.parcours_Box3-1:hover {
+    position: relative;
+    top: -10px;
+}
+.parcours_Box3-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    background: linear-gradient(180deg, rgb(51, 48, 48) 0%, rgba(93,93,93,0) 100%);
+    padding: 1rem 1rem 0rem 1rem;
+    margin-left: 0.8rem;
+    position: relative;
+    top: 0px;
+    transition: top 200ms;
+}
+.parcours_Box3-2:hover {
+    position: relative;
+    top: -10px;
+}
+.parcours_dates3 {
+    font-family: 'Signika', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 500;
+    color: ivory;
+    border-bottom: 4px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 25px;
+    padding-bottom: 5px;
+    width: 7rem;
+}
+.parcours_travail3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.parcours_lieu3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 1px 0px 12px rgba(0, 0, 0, 0.8);
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px dotted white;
+}
+
+
 
 
 
@@ -165,4 +522,63 @@
     background-size: cover;
     width: 100vw;
     height: 650px;
+    display: flex;
+    justify-content: flex-end;
+}
+.div_Form {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 800px;
+    height: 100%;
+    padding-bottom: 3rem;
+}
+.lbl_name {
+    width: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+.form_name {
+    display: flex;
+    justify-content: column;
+    width: 100%;
+    margin-top: 5rem;
+}
+.lbl_mail {
+    width: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+.form_mail {
+    display: flex;
+    justify-content: column;
+    width: 100%;
+    margin-top: 1rem;
+}
+.lbl_msg {
+    width: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+.form_message {
+    display: flex;
+    justify-content: column;
+    width: 100%;
+    margin-top: 1rem;
+}
+#name {
+    width: 80%;
+    border-radius: 10px;
+}
+#mail {
+    width: 80%;
+    border-radius: 10px;
+}
+#msg {
+    width: 80%;
+    height: 200px;
+    border-radius: 10px;
 }

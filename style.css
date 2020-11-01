@@ -62,7 +62,7 @@
     color: white;
 }
   /* compteur Media Queries téléphone */
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 500px) {
     .header {
         display: none;
     }
@@ -168,7 +168,7 @@
 
 
   /* compteur Media Queries téléphone */
-    @media screen and (max-width: 414px) {
+    @media screen and (max-width: 500px) {
         .prenom {
             font-size: 3rem;
         }
@@ -343,7 +343,7 @@
 
 
 /* compteur Media Queries téléphone */
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 500px) {
     .section_b {
         height: unset;
     }
@@ -503,7 +503,7 @@
 
 
 /* compteur Media Queries téléphone */
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 500px) {
     .parcours_flexLigne1{
         flex-direction: column;
         align-items: center;
@@ -627,7 +627,7 @@
     border-bottom: 1px dotted white;
 }
 /* compteur Media Queries téléphone */
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 500px) {
     .parcours_flexLigne2{
         flex-direction: column;
         align-items: center;
@@ -916,7 +916,7 @@
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 500px) {
     .contactMe {
         width: 340px;
     }

@@ -8,6 +8,70 @@
 }
 
 
+.header {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    background-color: #A5A5A5;
+    z-index: 7;
+    justify-content: space-between;
+    box-shadow: 0px 12px 23px -5px rgba(0,0,0,0.75);
+}
+.header_button {
+    display: flex;
+}
+.header_arrow {
+    display: flex;
+}
+.bouton1 {
+    justify-content: flex-end;
+    width : 3rem;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 0 1rem;
+    padding: 0.5em;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 26px -10px rgba(0,0,0,0.75);
+}
+.bouton1:hover {
+    background-color:  rgb(243, 165, 21);
+    color :white;
+}
+.bouton2 /* bouton */{
+    width: 6rem;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 0 1rem;
+    border-radius: 30px;
+    padding: 0.5em;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 26px -10px rgba(0,0,0,0.75);
+}
+.bouton2:hover {
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Première section */
 .section_a {
     background-image:url(Sans_titre_2.jpg);
@@ -17,7 +81,9 @@
     width: 100vw;
     height: 650px;
     display: flex;
+    justify-content: flex-end;
     flex-direction: column;
+    padding-bottom: 100px;
 }
 .box_moitié {
     width: 50%;

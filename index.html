@@ -8,6 +8,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
 </head>
 <body>
 
@@ -30,9 +33,9 @@
         <div class="box_moitié">
             <div class="box_identite">
                 <div class="box_prenom">
-                    <h1 class="prenom">Bastien</h1>
+                    <h1 data-aos="fade-right" class="prenom">Bastien</h1>
                 </div>
-                <div class="box_nom">
+                <div data-aos-delay="300" data-aos="fade-right" class="box_nom">
                     <h1 class="nom">Lafalize</h1>
                     <div class="box_line"></div>
                 </div>
@@ -40,7 +43,7 @@
         </div>
 
         <div class="titre_cv">
-            <h2 class="cv">Curriculum Vitae</h2>
+            <h2 data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1500" class="cv">Curriculum Vitae</h2>
         </div>
     </section>
 
@@ -51,8 +54,8 @@
     <section class="section_b">
        
         <div class="box_moitiéB">
-            <h3 class="sous_titreB">About me</h3>
-            <p class="text_aboutMeB">25 years since June 2020, happy inhabitant of the city of Liège, Junior Web Developer in Becode.
+            <h3 data-aos="flip-left" class="sous_titreB">About me</h3>
+            <p data-aos="fade-up" data-aos-duration="2000" class="text_aboutMeB">25 years since June 2020, happy inhabitant of the city of Liège, Junior Web Developer in Becode.
                 I have always loved jobs related to IT and technology.
                 Before that, I had several experiences as a specialist educator, in which I was able to develop certain qualities such as listening to the needs of others, patience, punctuality, ...
                 I also have a good experience in the hospitality industry, which has allowed me to be comfortable with people.
@@ -61,7 +64,7 @@
 
             <div class= "icon_B">
 
-                <div class="icon_B_1">
+                <div data-aos="zoom-in" data-aos-duration="1000" class="icon_B_1">
                     <img class="logo1" src="translate.png" alt="icone_Langues">
                     <h4 class="icon_Title">Languages</h4>
                     <div class="flex_language1">
@@ -76,7 +79,7 @@
 
                 <div class="ligne_icon_middle"></div>
 
-                <div class="icon_B_2">
+                <div data-aos="zoom-in" data-aos-duration="1000" class="icon_B_2">
                     <img class="logo2" src="puzzle.png" alt="icone_Langues">
                     <h4 class="icon_Title">Hobbies</h4>
                     <div class="flex_icons">
@@ -101,10 +104,10 @@
         <div class="parcours_Box_Principale">
 
             <div class="parcours_flexTitre1">
-                <h3 class="parcours_titre1">experiences</h3>
+                <h3 data-aos="flip-left" class="parcours_titre1">experiences</h3>
             </div>
 
-            <div class="parcours_flexLigne1">
+            <div data-aos="fade-down" data-aos-duration="1500" class="parcours_flexLigne1">
 
                 <div class="parcours_Box1-1">
                     <h4 class="parcours_dates1">2019</h4>
@@ -127,10 +130,10 @@
             </div>
 
             <div class="parcours_flexTitre2">
-                <h3 class="parcours_titre2">Formations</h3>
+                <h3 data-aos="flip-left" class="parcours_titre2">Formations</h3>
             </div>
 
-            <div class="parcours_flexLigne2">
+            <div data-aos="fade-down" data-aos-duration="1500" class="parcours_flexLigne2">
 
                 <div class="parcours_Box2-1">
                     <h4 class="parcours_dates2">2020</h4>
@@ -153,10 +156,10 @@
             </div>
 
             <div class="parcours_flexTitre3">
-                <h3 class="parcours_titre3">Stages</h3>
+                <h3 data-aos="flip-left" class="parcours_titre3">Stages</h3>
             </div>
 
-            <div class="parcours_flexLigne3">
+            <div data-aos="fade-down" data-aos-duration="1500" class="parcours_flexLigne3">
                 <div class="parcours_Box3-1">
                     <h4 class="parcours_dates3">2018</h4>
                     <p class="parcours_travail3">Bomal</p>
@@ -180,10 +183,10 @@
         <div class="div_Form">
 
             <div class="parcours_flexTitreForm1">
-                <h3 class="parcours_titreForm1">Contact me</h3>
+                <h3 data-aos="flip-left" class="parcours_titreForm1">Contact me</h3>
             </div>
 
-            <div class="contactMe">
+            <div data-aos="zoom-in" data-aos-duration="1500" class="contactMe">
 
                 <div class="CM1">
                     <a href="#"><img class="CMlogo1" src="001-facebook.png" alt="icone_Langues"></a>
@@ -218,7 +221,7 @@
             </div>
 
 
-            <form method="POST" class="form">
+            <form data-aos="fade-right" method="POST" class="form">
                 <div class ="form_name">
                     <label for="name" class="lbl_name">Name :</label>
                     <input type="text" id="name" name="user_name" />
@@ -236,7 +239,11 @@
                 </div>
             </form>
         </div>
-
     </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+
+
 </body>
 </html>

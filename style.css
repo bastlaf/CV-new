@@ -15,7 +15,7 @@
     height: 70px;
     position: fixed;
     background: rgb(51,51,51);
-background: linear-gradient(180deg, rgb(32, 32, 32) 0%, rgba(27, 27, 27, 0.4) 50%,rgba(36, 36, 36, 0) 100%);
+    background: linear-gradient(180deg, rgb(32, 32, 32) 0%, rgba(27, 27, 27, 0.4) 50%,rgba(36, 36, 36, 0) 100%);
     z-index: 7;
     justify-content: space-between;
 
@@ -152,7 +152,6 @@ background: linear-gradient(180deg, rgb(32, 32, 32) 0%, rgba(27, 27, 27, 0.4) 50
         }
         .box_moitié {
             width: 100%;
-
         }
         .box_nom {
             justify-content: center;
@@ -184,7 +183,7 @@ background: linear-gradient(180deg, rgb(32, 32, 32) 0%, rgba(27, 27, 27, 0.4) 50
 
 /* deuxième section--------------------------------------------------------------------------------------*/
 .section_b {
-    background-image:url(Sans_titre_1-2.jpg);
+    background:url(Sans_titre_1-2.jpg) ;
     background-position: left;
     background-attachment: fixed;
     background-size: cover;
@@ -321,7 +320,6 @@ background: linear-gradient(180deg, rgb(32, 32, 32) 0%, rgba(27, 27, 27, 0.4) 50
         margin-top: 0;
         margin-bottom: 10rem;
     }
-
 }
 /* section b, Media Queries téléphone */
 @media screen and (max-width: 500px) {

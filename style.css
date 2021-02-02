@@ -301,6 +301,40 @@ html {
     justify-content: space-between;
     width: 80%;
 }
+
+.titleSkills {
+    font-family: 'Signika', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: ivory;
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: 2px dotted rgb(243, 165, 21);
+    text-shadow: 1px 0px 12px rgba(112, 112, 112, 0.8);
+}
+.boxSkills {
+    display: flex;
+    flex-wrap: wrap;
+    width: 670px;
+    min-width: 670px;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+.skill {
+    display: flex;
+    justify-content: center;
+    color: rgb(243, 165, 21);
+    font-size: 4rem;
+    width: 20%;
+
+}
+.skill2 {
+    margin-left: 3.8rem;
+}
+.skill3 {
+    margin-right: 3.8rem;
+}
+
 /* section b, Media Queries talette */
 @media screen and (max-width: 768px) {
     .box_moitiéB {
@@ -320,7 +354,10 @@ html {
     }
     .icon_B {
         margin-top: 0;
-        margin-bottom: 10rem;
+    }
+    .boxSkills {
+        width: 100%;
+        transform: scale(0.8);
     }
 }
 /* section b, Media Queries téléphone */
@@ -334,7 +371,6 @@ html {
         height: unset;
         align-items: center;
         margin-top: 6rem;
-        margin-bottom: 4rem;
     }
     .text_aboutMeB {
         margin-top: 2rem;
@@ -344,6 +380,10 @@ html {
         margin-top: 2rem;
         padding-top: 2rem;
         border-top: white dotted 1px;
+    }
+    .boxSkills {
+        width: 100%;
+        transform: scale(0.5);
     }
 }
 
@@ -400,7 +440,7 @@ html {
     width: 270px;
     background: linear-gradient(180deg, rgb(51, 48, 48) 0%, rgba(93,93,93,0) 100%);
     padding: 1rem 1rem 0rem 1rem;
-    transition: top 200ms;
+    transition: 0.2s ease-in-out;
 }
 .parcours_Box1-1:hover {
     position: relative;
@@ -508,7 +548,7 @@ html {
 }
 .parcours_flexLigne2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 90%;
 }
 .parcours_Box2-1 {
